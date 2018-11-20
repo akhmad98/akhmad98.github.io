@@ -1,0 +1,47 @@
+ #art {
+            background-color: white;
+            margin-left:20%;
+            margin-right:20%;
+            border: 2px dotted black;
+            padding: 10px 10px 10px 10px;
+            font-family: sans-serif;
+}
+
+.arta {
+    background-color: #ffa801;
+}
+#my-header {
+    background-attachment: scroll;
+    height: 39.5px;
+    width: 100%;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+#logo {
+    width: 40px;
+    height:35px;
+    margin-right: auto;
+    margin-left: 20px;
+    display: inline-block;
+
+ }
+ .stilus {
+    justify-content: center;
+    line-height: 1.6px;
+    margin-left: 22px;   
+    float: right;
+}
+.stilus li {
+    font-size: 20px;
+    font-style: normal;
+    display:inline-block; 
+}
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #f53b57;
+    color: white;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+
+}

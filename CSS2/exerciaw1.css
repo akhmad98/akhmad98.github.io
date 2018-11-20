@@ -1,0 +1,74 @@
+* {
+        box-sizing: border-box;
+}
+body{margin:0px;}
+.my-header {
+	background-attachment: scroll;
+	height: 39.5px;
+	width: 100%;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+input[type=text], select, textarea {
+	min-width: 100%;
+	padding: 12px;
+	border:1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit] {
+	background-color: #34e7e4;
+	color: white;
+	padding: 12px 20px;
+	border:none;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #05c46b;
+}
+.containerc {
+	background-color: #ffda79;
+	padding: 10px;
+}
+.mycolumn {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 16px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+#logo {
+ 	width: 40px;
+ 	height:35px;
+ 	margin-right: auto;
+ 	margin-left: 20px;
+ 	display: inline-block;
+
+ }
+ footer {
+	position: relative;
+	width: 100%;
+	background-color: #f53b57;
+	color: white;
+	text-align: center;
+	margin:8px 0px 0px 0px;
+
+}
