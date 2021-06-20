@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
 	font-family: 'Aventura'; 
 	src: url(../fonts/Aventura.otf);
 }
@@ -149,6 +149,16 @@ footer {
 	text-align: center;
 	margin:8px 0px 0px 0px;
 
+} */
+html, body {
+	margin: 0;
+	padding: 0;
 }
 
-
+.jumbotron {
+    background-image: url('http://www.esri.com/~/media/Images/Banners/software/arcgis-open-data-banner-lg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
