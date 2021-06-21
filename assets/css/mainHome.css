@@ -12,8 +12,12 @@ html, body {
     height: 350px;
 }
 
-#portret {
-
+#article {
+	display: inline-block;
+	width: auto;
+}
+.navbar-article {
+	margin-right: 80rem;;
 }
 .rs-img {
 	width: 400px;
@@ -32,5 +36,13 @@ div#portret > img {
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: stretch;
+	justify-content: center;
+}
+.footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	align-items: center;
 	justify-content: center;
 }
