@@ -16,13 +16,21 @@ html, body {
 
 }
 .rs-img {
-	width: 100%;
+	width: 400px;
 	max-width: 400px;
-	height: auto;
+	height: 400px;
 }
 div#portret > img {
 		margin-top: 29px;
 		vertical-align: middle;
 		width: 400px;
 
+}
+
+.row-img {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
 }
